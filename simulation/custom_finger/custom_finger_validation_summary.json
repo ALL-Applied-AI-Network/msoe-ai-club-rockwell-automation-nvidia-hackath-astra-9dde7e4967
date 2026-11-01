@@ -1,0 +1,44 @@
+{
+  "result": "PASS",
+  "run": "custom_finger_cube_stack_01",
+  "task_complete": true,
+  "abort_reason": null,
+  "verified_pickups": 6,
+  "verified_placements": 6,
+  "stack_order": ["yellow", "yellow", "blue", "blue", "red", "red"],
+  "finger_calibration": {
+    "open_inner_gap_mm": 16.4,
+    "closed_inner_gap_mm": 4.4,
+    "mount_to_tip_mm": 68.7643899917603,
+    "cube_jaw_half_target_mm": 2.5,
+    "compliance_limit_per_side_mm": 1.0,
+    "maximum_left_compression_mm": 0.14651345554739237,
+    "maximum_right_compression_mm": 0.1511909649707377
+  },
+  "placement_metrics": {
+    "maximum_lateral_error_mm": 0.383,
+    "maximum_yaw_error_deg_mod90": 1.525,
+    "maximum_tilt_deg": 0.596,
+    "all_support_checks_passed": true
+  },
+  "perception": {
+    "plan_source": "Cosmos3-Nano",
+    "source_run": "cosmos_detection_01",
+    "cosmos_rerun_for_this_geometry_test": false
+  },
+  "videos": {
+    "frames_each": 1656,
+    "fps": 30.0,
+    "duration_s": 55.2,
+    "table": "custom_finger_stack_table.mp4",
+    "side": "custom_finger_stack_side.mp4",
+    "wrist": "custom_finger_stack_wrist.mp4",
+    "decode_validation": "PASS"
+  },
+  "known_assumptions": [
+    "Core physics uses PLA per the project owner's statement although delivered CAD names say TPU.",
+    "Mount screw centres were inferred from symmetric CAD geometry because named mount frames were absent.",
+    "Mass values remain candidates until measured masses are supplied."
+  ],
+  "project_core_modified": false
+}

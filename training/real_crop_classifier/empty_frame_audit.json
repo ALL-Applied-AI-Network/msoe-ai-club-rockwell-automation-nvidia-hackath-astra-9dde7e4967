@@ -1,0 +1,235 @@
+{
+  "status": "complete",
+  "assumption": "last frame after policy completed its full recorded inventory has no remaining target objects",
+  "frames": 7,
+  "camera_blocked_frames": 7,
+  "pairwise_confidence_threshold": 0.75,
+  "raw_proposals": 0,
+  "raw_proposals_per_frame": 0.0,
+  "accepted_false_proposals": {
+    "0.5": 0,
+    "0.6": 0,
+    "0.7": 0,
+    "0.75": 0,
+    "0.8": 0,
+    "0.9": 0
+  },
+  "sessions": [
+    {
+      "policy": 8,
+      "session": "policy8_20261030T202034Z_1499701",
+      "trial": "r20261030-3b3447-t02",
+      "inventory": {
+        "m4_screw": 1,
+        "m8_screw": 1
+      },
+      "completed": {
+        "m4_screw": 1,
+        "m8_screw": 1
+      },
+      "ignored_objects": [],
+      "explicit_complete": false,
+      "frame": "/workspace/physical_ai_submission_policy8/runtime_logs/policy8_20261030T202034Z_1499701/r20261030-3b3447-t02_frames/frame_00024.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        541,
+        394,
+        792,
+        730
+      ],
+      "occluder_area": 63071.0,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy8_20261030T202034Z_1499701__r20261030-3b3447-t02.jpg"
+    },
+    {
+      "policy": 8,
+      "session": "policy8_20261030T203126Z_1511747",
+      "trial": "r20261030-3b3447-t02",
+      "inventory": {
+        "m4_screw": 2,
+        "m8_screw": 2
+      },
+      "completed": {
+        "m4_screw": 2,
+        "m8_screw": 2
+      },
+      "ignored_objects": [
+        {
+          "label": "yellow plastic bin",
+          "sort_class": "ignore",
+          "center": [
+            0.37240989583333334,
+            0.6553537037037037
+          ]
+        },
+        {
+          "label": "orange plastic bin",
+          "sort_class": "ignore",
+          "center": [
+            0.5965838541666667,
+            0.7070759259259259
+          ]
+        }
+      ],
+      "explicit_complete": true,
+      "frame": "/workspace/physical_ai_submission_policy8/runtime_logs/policy8_20261030T203126Z_1511747/r20261030-3b3447-t02_frames/frame_00047.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        869,
+        394,
+        1238,
+        730
+      ],
+      "occluder_area": 81230.0,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy8_20261030T203126Z_1511747__r20261030-3b3447-t02.jpg"
+    },
+    {
+      "policy": 8,
+      "session": "policy8_20261030T224443Z_1662389",
+      "trial": "r20261030-3b3447-t05",
+      "inventory": {
+        "m4_screw": 2,
+        "m8_screw": 2
+      },
+      "completed": {
+        "m4_screw": 3,
+        "m8_screw": 2
+      },
+      "ignored_objects": [
+        {
+          "label": "yellow cube",
+          "sort_class": "ignore",
+          "center": [
+            0.4206036458333333,
+            0.6362981481481481
+          ]
+        },
+        {
+          "label": "orange cube",
+          "sort_class": "ignore",
+          "center": [
+            0.477925,
+            0.5919259259259259
+          ]
+        }
+      ],
+      "explicit_complete": true,
+      "frame": "/workspace/physical_ai_submission_policy8/runtime_logs/policy8_20261030T224443Z_1662389/r20261030-3b3447-t05_frames/frame_00064.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        877,
+        394,
+        1239,
+        730
+      ],
+      "occluder_area": 87793.0,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy8_20261030T224443Z_1662389__r20261030-3b3447-t05.jpg"
+    },
+    {
+      "policy": 9,
+      "session": "policy9_20261030T231202Z_1694880",
+      "trial": "r20261030-f64c6e-t01",
+      "inventory": {
+        "aaa_battery": 1,
+        "aa_battery": 1
+      },
+      "completed": {
+        "aaa_battery": 1,
+        "aa_battery": 1
+      },
+      "ignored_objects": [],
+      "explicit_complete": false,
+      "frame": "/workspace/physical_ai_submission_policy9/runtime_logs/policy9_20261030T231202Z_1694880/r20261030-f64c6e-t01_frames/frame_00021.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        617,
+        394,
+        994,
+        730
+      ],
+      "occluder_area": 66535.5,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy9_20261030T231202Z_1694880__r20261030-f64c6e-t01.jpg"
+    },
+    {
+      "policy": 10,
+      "session": "policy10_20261030T233105Z_1716462",
+      "trial": "r20261030-06e115-t00",
+      "inventory": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "completed": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "ignored_objects": [],
+      "explicit_complete": true,
+      "frame": "/workspace/physical_ai_submission_policy10/runtime_logs/policy10_20261030T233105Z_1716462/r20261030-06e115-t00_frames/frame_00048.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        872,
+        394,
+        1238,
+        730
+      ],
+      "occluder_area": 86976.0,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy10_20261030T233105Z_1716462__r20261030-06e115-t00.jpg"
+    },
+    {
+      "policy": 10,
+      "session": "policy10_20261030T233339Z_1719331",
+      "trial": "r20261030-06e115-t01",
+      "inventory": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "completed": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "ignored_objects": [],
+      "explicit_complete": true,
+      "frame": "/workspace/physical_ai_submission_policy10/runtime_logs/policy10_20261030T233339Z_1719331/r20261030-06e115-t01_frames/frame_00048.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        894,
+        394,
+        1276,
+        730
+      ],
+      "occluder_area": 91644.5,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy10_20261030T233339Z_1719331__r20261030-06e115-t01.jpg"
+    },
+    {
+      "policy": 10,
+      "session": "policy10_20261030T233628Z_1722417",
+      "trial": "r20261030-06e115-t02",
+      "inventory": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "completed": {
+        "round_pill": 2,
+        "long_pill": 2
+      },
+      "ignored_objects": [],
+      "explicit_complete": true,
+      "frame": "/workspace/physical_ai_submission_policy10/runtime_logs/policy10_20261030T233628Z_1722417/r20261030-06e115-t02_frames/frame_00049.png",
+      "camera_blocked": true,
+      "occluder_box": [
+        888,
+        394,
+        1276,
+        730
+      ],
+      "occluder_area": 94415.5,
+      "proposals": [],
+      "annotated": "full_frame_evaluation/empty_audit_annotated/policy10_20261030T233628Z_1722417__r20261030-06e115-t02.jpg"
+    }
+  ]
+}

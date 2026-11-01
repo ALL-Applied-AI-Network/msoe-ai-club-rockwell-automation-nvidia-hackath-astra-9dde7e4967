@@ -1,0 +1,357 @@
+{
+  "status": "PASS",
+  "package": "new_pill_battery_assets_candidate_20261029",
+  "old_pill_assets_reused": false,
+  "isaac_ready_assets": [
+    "packaged/round_pill_red_sim.usda",
+    "packaged/round_pill_yellow_sim.usda",
+    "packaged/round_pill_blue_sim.usda",
+    "packaged/round_pill_black_sim.usda",
+    "packaged/long_pill_red_sim.usda",
+    "packaged/long_pill_yellow_sim.usda",
+    "packaged/long_pill_blue_sim.usda",
+    "packaged/long_pill_black_sim.usda",
+    "packaged/aa_battery_black_sim.usda",
+    "packaged/aa_battery_blue_sim.usda",
+    "packaged/aa_battery_copper_sim.usda",
+    "packaged/aa_battery_silver_sim.usda",
+    "packaged/aaa_battery_black_sim.usda",
+    "packaged/aaa_battery_blue_sim.usda",
+    "packaged/aaa_battery_copper_sim.usda",
+    "packaged/aaa_battery_silver_sim.usda"
+  ],
+  "source_sha256": {
+    "round_pill.step": "b75f52c4bf8942ed0764188b20094acab687d64e27be3295837ac223cf48e046",
+    "long_pill.step": "4eb255da49f8d3d808d6b72acfeaf330aea3c35dab5b06fed3e45defb45dd789",
+    "aa_battery.step": "8503e9cfea118f247c4719a1056da9d08094bd16f8d24c4eccb23f86c1e000d5",
+    "aaa_battery.step": "9f09e191e34d2938641daf3a282b0b763e243ea22105d0ec5dbf189d603ba4d4"
+  },
+  "source_units": "millimetres",
+  "sim_asset_units": "metres",
+  "assets": {
+    "round_pill": {
+      "source_step": "round_pill.step",
+      "visual_usdc": "converted/round_pill_visual.usdc",
+      "collision_usdc": "packaged/round_pill_collision.usdc",
+      "dimensions_mm": [
+        11.5,
+        11.5,
+        5.5
+      ],
+      "source_bounds_mm": {
+        "min": [
+          -5.75,
+          -5.75,
+          0.0
+        ],
+        "max": [
+          5.75,
+          5.75,
+          5.5
+        ],
+        "center": [
+          0.0,
+          0.0,
+          2.75
+        ]
+      },
+      "visual_meshes": 1,
+      "visual_triangles": 2556,
+      "visual_watertight": true,
+      "volume_mm3": 433.6222825872516,
+      "collision_vertices": 1280,
+      "collision_triangles": 2556,
+      "collision_watertight": true,
+      "default_mass_kg": 0.000520346739104702,
+      "variants": {
+        "red": {
+          "sim_asset": "packaged/round_pill_red_sim.usda",
+          "material_rgb": [
+            0.72,
+            0.025,
+            0.018
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4
+        },
+        "yellow": {
+          "sim_asset": "packaged/round_pill_yellow_sim.usda",
+          "material_rgb": [
+            0.92,
+            0.64,
+            0.025
+          ],
+          "metallic": 0.0,
+          "roughness": 0.42
+        },
+        "blue": {
+          "sim_asset": "packaged/round_pill_blue_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.14,
+            0.68
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4
+        },
+        "black": {
+          "sim_asset": "packaged/round_pill_black_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.028,
+            0.034
+          ],
+          "metallic": 0.05,
+          "roughness": 0.35
+        }
+      }
+    },
+    "long_pill": {
+      "source_step": "long_pill.step",
+      "visual_usdc": "converted/long_pill_visual.usdc",
+      "collision_usdc": "packaged/long_pill_collision.usdc",
+      "dimensions_mm": [
+        18.700000762939453,
+        8.5,
+        7.199999809265137
+      ],
+      "source_bounds_mm": {
+        "min": [
+          -9.350000381469727,
+          -4.25,
+          0.0
+        ],
+        "max": [
+          9.350000381469727,
+          4.25,
+          7.199999809265137
+        ],
+        "center": [
+          0.0,
+          0.0,
+          3.5999999046325684
+        ]
+      },
+      "visual_meshes": 1,
+      "visual_triangles": 2196,
+      "visual_watertight": false,
+      "volume_mm3": 895.0393359370704,
+      "collision_vertices": 1072,
+      "collision_triangles": 2140,
+      "collision_watertight": true,
+      "default_mass_kg": 0.0010740472031244845,
+      "variants": {
+        "red": {
+          "sim_asset": "packaged/long_pill_red_sim.usda",
+          "material_rgb": [
+            0.72,
+            0.025,
+            0.018
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4
+        },
+        "yellow": {
+          "sim_asset": "packaged/long_pill_yellow_sim.usda",
+          "material_rgb": [
+            0.92,
+            0.64,
+            0.025
+          ],
+          "metallic": 0.0,
+          "roughness": 0.42
+        },
+        "blue": {
+          "sim_asset": "packaged/long_pill_blue_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.14,
+            0.68
+          ],
+          "metallic": 0.0,
+          "roughness": 0.4
+        },
+        "black": {
+          "sim_asset": "packaged/long_pill_black_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.028,
+            0.034
+          ],
+          "metallic": 0.05,
+          "roughness": 0.35
+        }
+      }
+    },
+    "aa_battery": {
+      "source_step": "aa_battery.step",
+      "visual_usdc": "converted/aa_battery_visual.usdc",
+      "collision_usdc": "packaged/aa_battery_collision.usdc",
+      "dimensions_mm": [
+        49.0,
+        14.0,
+        14.0
+      ],
+      "source_bounds_mm": {
+        "min": [
+          -0.5,
+          -7.0,
+          -7.0
+        ],
+        "max": [
+          48.5,
+          7.0,
+          7.0
+        ],
+        "center": [
+          24.0,
+          0.0,
+          0.0
+        ]
+      },
+      "visual_meshes": 1,
+      "visual_triangles": 2364,
+      "visual_watertight": true,
+      "volume_mm3": 7365.816449941286,
+      "collision_vertices": 672,
+      "collision_triangles": 1340,
+      "collision_watertight": true,
+      "default_mass_kg": 0.023,
+      "variants": {
+        "black": {
+          "sim_asset": "packaged/aa_battery_black_sim.usda",
+          "material_rgb": [
+            0.035,
+            0.04,
+            0.048
+          ],
+          "metallic": 0.12,
+          "roughness": 0.31
+        },
+        "blue": {
+          "sim_asset": "packaged/aa_battery_blue_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.12,
+            0.52
+          ],
+          "metallic": 0.08,
+          "roughness": 0.34
+        },
+        "copper": {
+          "sim_asset": "packaged/aa_battery_copper_sim.usda",
+          "material_rgb": [
+            0.48,
+            0.16,
+            0.055
+          ],
+          "metallic": 0.38,
+          "roughness": 0.29
+        },
+        "silver": {
+          "sim_asset": "packaged/aa_battery_silver_sim.usda",
+          "material_rgb": [
+            0.44,
+            0.47,
+            0.5
+          ],
+          "metallic": 0.72,
+          "roughness": 0.25
+        }
+      },
+      "terminal_visuals": {
+        "long_axis": 0,
+        "axis_token": "X",
+        "diameter_mm": 14.0,
+        "positive_terminal_radius_mm": 2.52,
+        "negative_terminal_radius_mm": 5.88
+      }
+    },
+    "aaa_battery": {
+      "source_step": "aaa_battery.step",
+      "visual_usdc": "converted/aaa_battery_visual.usdc",
+      "collision_usdc": "packaged/aaa_battery_collision.usdc",
+      "dimensions_mm": [
+        44.0,
+        10.199999809265137,
+        10.199999809265137
+      ],
+      "source_bounds_mm": {
+        "min": [
+          -0.5,
+          -5.099999904632568,
+          -5.099999904632568
+        ],
+        "max": [
+          43.5,
+          5.099999904632568,
+          5.099999904632568
+        ],
+        "center": [
+          21.5,
+          0.0,
+          0.0
+        ]
+      },
+      "visual_meshes": 1,
+      "visual_triangles": 1916,
+      "visual_watertight": true,
+      "volume_mm3": 3497.7441312244664,
+      "collision_vertices": 640,
+      "collision_triangles": 1276,
+      "collision_watertight": true,
+      "default_mass_kg": 0.0115,
+      "variants": {
+        "black": {
+          "sim_asset": "packaged/aaa_battery_black_sim.usda",
+          "material_rgb": [
+            0.035,
+            0.04,
+            0.048
+          ],
+          "metallic": 0.12,
+          "roughness": 0.31
+        },
+        "blue": {
+          "sim_asset": "packaged/aaa_battery_blue_sim.usda",
+          "material_rgb": [
+            0.025,
+            0.12,
+            0.52
+          ],
+          "metallic": 0.08,
+          "roughness": 0.34
+        },
+        "copper": {
+          "sim_asset": "packaged/aaa_battery_copper_sim.usda",
+          "material_rgb": [
+            0.48,
+            0.16,
+            0.055
+          ],
+          "metallic": 0.38,
+          "roughness": 0.29
+        },
+        "silver": {
+          "sim_asset": "packaged/aaa_battery_silver_sim.usda",
+          "material_rgb": [
+            0.44,
+            0.47,
+            0.5
+          ],
+          "metallic": 0.72,
+          "roughness": 0.25
+        }
+      },
+      "terminal_visuals": {
+        "long_axis": 0,
+        "axis_token": "X",
+        "diameter_mm": 10.199999809265137,
+        "positive_terminal_radius_mm": 1.8359999656677246,
+        "negative_terminal_radius_mm": 4.283999919891357
+      }
+    }
+  },
+  "appearance_note": "Shape is the semantic class. Pill and battery body colours are material variants to prevent a classifier from using colour as the class shortcut. Battery wrappers add metallic end overlays to the delivered CAD silhouette.",
+  "collision_note": "No separate collision CAD was delivered. Watertight convex-hull collision proxies were generated from each new visual solid."
+}

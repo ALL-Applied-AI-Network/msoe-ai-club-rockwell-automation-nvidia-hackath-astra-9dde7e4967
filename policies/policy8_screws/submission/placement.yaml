@@ -1,0 +1,39 @@
+# Example variable-count layouts. CSI may randomize positions and counts.
+rollouts:
+  - objects:
+      m4_screw:
+        - [320, -35, -47]
+        - [430, -20, 18]
+      m8_screw:
+        - [315, -190, 61]
+        - [375, -175, 14]
+        - [435, -185, -23]
+        - [490, -165, 38]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: >-
+      Sort all M4 screws into the red bin and all M8 screws into the green bin.
+  - objects:
+      m4_screw:
+        - [310, -30, -35]
+        - [365, -15, 7]
+        - [425, -40, 42]
+        - [485, -10, -12]
+      m8_screw:
+        - [350, -185, 55]
+        - [465, -175, -31]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: >-
+      Sort all M4 screws into the red bin and all M8 screws into the green bin.
+  - objects:
+      m4_screw:
+        - [345, -25, 29]
+      m8_screw:
+        - [330, -185, -48]
+        - [405, -170, 9]
+        - [480, -190, 37]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: >-
+      Sort all M4 screws into the red bin and all M8 screws into the green bin.

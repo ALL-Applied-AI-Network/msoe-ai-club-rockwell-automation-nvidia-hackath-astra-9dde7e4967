@@ -1,0 +1,30 @@
+{
+  "status": "COMPLETE",
+  "model": "yolo11s.pt",
+  "best_checkpoint": "/workspace/training_six_class_20261030/baseline_yolo11s_30e_1280/train/weights/best.pt",
+  "epochs_requested": 30,
+  "imgsz": 1280,
+  "batch": 8,
+  "elapsed_seconds": 2901.8,
+  "training_results": {
+    "metrics/precision(B)": 0.9989525974095367,
+    "metrics/recall(B)": 0.9987383239177244,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9255449581568489,
+    "fitness": 0.9255449581568489
+  },
+  "validation_results": {
+    "metrics/precision(B)": 0.9989525645440858,
+    "metrics/recall(B)": 0.998738844475175,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9255572917084892,
+    "fitness": 0.9255572917084892
+  },
+  "test_results": {
+    "metrics/precision(B)": 0.9991790809900207,
+    "metrics/recall(B)": 0.9989584847035538,
+    "metrics/mAP50(B)": 0.995,
+    "metrics/mAP50-95(B)": 0.9235017654143951,
+    "fitness": 0.9235017654143951
+  }
+}

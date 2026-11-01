@@ -1,0 +1,305 @@
+{
+  "status": "PASS",
+  "old_pill_assets_reused": false,
+  "contracts": {
+    "pill_shape_separation": "PASS",
+    "aa_larger_than_aaa": "PASS",
+    "v2_opening_mm": 16.4,
+    "cross_axis_grasp_fits_v2": {
+      "round_pill": true,
+      "long_pill": true,
+      "aa_battery": true,
+      "aaa_battery": true
+    }
+  },
+  "assets": [
+    {
+      "asset": "round_pill_red_sim.usda",
+      "shape": "round_pill",
+      "variant": "red",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        11.5,
+        11.5,
+        5.5
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0005203467444516718,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "round_pill_yellow_sim.usda",
+      "shape": "round_pill",
+      "variant": "yellow",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        11.5,
+        11.5,
+        5.5
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0005203467444516718,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "round_pill_blue_sim.usda",
+      "shape": "round_pill",
+      "variant": "blue",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        11.5,
+        11.5,
+        5.5
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0005203467444516718,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "round_pill_black_sim.usda",
+      "shape": "round_pill",
+      "variant": "black",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        11.5,
+        11.5,
+        5.5
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0005203467444516718,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "long_pill_red_sim.usda",
+      "shape": "long_pill",
+      "variant": "red",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        18.700000762939453,
+        8.5,
+        7.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0010740471770986915,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "long_pill_yellow_sim.usda",
+      "shape": "long_pill",
+      "variant": "yellow",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        18.700000762939453,
+        8.5,
+        7.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0010740471770986915,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "long_pill_blue_sim.usda",
+      "shape": "long_pill",
+      "variant": "blue",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        18.700000762939453,
+        8.5,
+        7.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0010740471770986915,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "long_pill_black_sim.usda",
+      "shape": "long_pill",
+      "variant": "black",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        18.700000762939453,
+        8.5,
+        7.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 0,
+      "rigid_body": true,
+      "mass_kg": 0.0010740471770986915,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aa_battery_black_sim.usda",
+      "shape": "aa_battery",
+      "variant": "black",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        49.0,
+        14.0,
+        14.0
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.023000000044703484,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aa_battery_blue_sim.usda",
+      "shape": "aa_battery",
+      "variant": "blue",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        49.0,
+        14.0,
+        14.0
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.023000000044703484,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aa_battery_copper_sim.usda",
+      "shape": "aa_battery",
+      "variant": "copper",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        49.0,
+        14.0,
+        14.0
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.023000000044703484,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aa_battery_silver_sim.usda",
+      "shape": "aa_battery",
+      "variant": "silver",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        49.0,
+        14.0,
+        14.0
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.023000000044703484,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aaa_battery_black_sim.usda",
+      "shape": "aaa_battery",
+      "variant": "black",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        44.0,
+        10.199999809265137,
+        10.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.011500000022351742,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aaa_battery_blue_sim.usda",
+      "shape": "aaa_battery",
+      "variant": "blue",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        44.0,
+        10.199999809265137,
+        10.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.011500000022351742,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aaa_battery_copper_sim.usda",
+      "shape": "aaa_battery",
+      "variant": "copper",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        44.0,
+        10.199999809265137,
+        10.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.011500000022351742,
+      "material_bound": true,
+      "missing_dependencies": []
+    },
+    {
+      "asset": "aaa_battery_silver_sim.usda",
+      "shape": "aaa_battery",
+      "variant": "silver",
+      "status": "PASS",
+      "expected_dimensions_mm": [
+        44.0,
+        10.199999809265137,
+        10.199999809265137
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "terminal_cylinders": 2,
+      "rigid_body": true,
+      "mass_kg": 0.011500000022351742,
+      "material_bound": true,
+      "missing_dependencies": []
+    }
+  ]
+}

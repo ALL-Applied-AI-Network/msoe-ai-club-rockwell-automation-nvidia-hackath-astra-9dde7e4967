@@ -1,0 +1,19 @@
+rollouts:
+  - objects:
+      round_pill: [[330, -40, 15], [395, -25, -38], [465, -45, 48]]
+      long_pill: [[330, -190, 55], [430, -180, -12]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all round pills into the red bin and all long pills into the green bin.
+  - objects:
+      round_pill: [[350, -30, -25]]
+      long_pill: [[320, -190, 42], [385, -175, -35], [455, -185, 15]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all round pills into the red bin and all long pills into the green bin.
+  - objects:
+      round_pill: [[320, -35, 30], [390, -20, -15], [470, -40, 58]]
+      long_pill: [[355, -190, -52]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all round pills into the red bin and all long pills into the green bin.

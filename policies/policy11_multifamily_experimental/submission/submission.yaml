@@ -1,0 +1,21 @@
+team: Astra
+contact: Gabriela, davilaa2@uwm.edu
+policy: CustomFinger-DynamicMultiFamilySort-P11
+model_type: VLM + trained detector + calibrated metric verification
+
+task_id: custom-finger-dynamic-multifamily-sort
+task: >-
+  Sort all screws into the red bin, all batteries into the green bin, and all
+  pills into the yellow bin.
+
+objects: variable
+layout: random
+rollouts: 10
+
+custom_hardware: >-
+  Team-designed 3D-printed PLA custom fingers with compliant silicone contacts and
+  16.4 mm nominal opening. The scene contains variable counts of M4 and M8
+  screws, AA and AAA batteries, and round and long pills. Policy 11 accepts
+  prompt-selected family or subtype routes and calibrated 50 x 50 x 55 mm or
+  90 x 90 x 60 mm destination bins. No controller, sensor, or robot-arm
+  modification.

@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "model": "YOLO11s classification head with transferred detector backbone",
+  "classes": [
+    "aa_battery",
+    "aaa_battery",
+    "long_pill",
+    "m4_screw",
+    "m8_screw",
+    "round_pill"
+  ],
+  "epochs_requested": 35,
+  "checkpoint": "/workspace/real_object_classifier_20261031/training/run/weights/best.pt",
+  "bins_in_training": false,
+  "elapsed_seconds": 110.1,
+  "training_metrics": {
+    "metrics/accuracy_top1": 1.0,
+    "metrics/accuracy_top5": 1.0,
+    "fitness": 1.0
+  },
+  "real_validation_metrics": {
+    "metrics/accuracy_top1": 1.0,
+    "metrics/accuracy_top5": 1.0,
+    "fitness": 1.0
+  },
+  "real_test_metrics": {
+    "metrics/accuracy_top1": 0.949999988079071,
+    "metrics/accuracy_top5": 1.0,
+    "fitness": 0.9749999940395355
+  }
+}

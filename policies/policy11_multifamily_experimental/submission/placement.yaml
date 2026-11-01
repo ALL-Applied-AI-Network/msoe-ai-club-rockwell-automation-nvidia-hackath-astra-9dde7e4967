@@ -1,0 +1,41 @@
+# Example layouts for the default family-level Policy 11 submission.
+rollouts:
+  - objects:
+      m4_screw: [[320, -45, -30], [390, -30, 18]]
+      m8_screw: [[455, -35, 52]]
+      aaa_battery: [[325, -175, 35], [410, -180, -20]]
+      aa_battery: [[485, -170, 12]]
+      round_pill: [[355, 90, 0], [430, 105, 0]]
+      long_pill: [[490, 95, 35]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+      yellow_bin: [205, -95]
+    prompt: >-
+      Sort all screws into the red bin, all batteries into the green bin, and
+      all pills into the yellow bin.
+  - objects:
+      m4_screw: [[340, -35, 42]]
+      m8_screw: [[420, -40, -15], [485, -25, 27]]
+      aaa_battery: [[315, -185, -25]]
+      aa_battery: [[390, -170, 45], [470, -180, 5]]
+      round_pill: [[345, 95, 0]]
+      long_pill: [[415, 105, -28], [485, 90, 22]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+      yellow_bin: [205, -95]
+    prompt: >-
+      Sort all screws into the red bin, all batteries into the green bin, and
+      all pills into the yellow bin.
+  - objects:
+      m4_screw: [[330, -40, 5], [470, -35, -38]]
+      m8_screw: [[400, -25, 58]]
+      aaa_battery: [[350, -180, 15]]
+      aa_battery: [[455, -175, -42]]
+      round_pill: [[370, 100, 0], [455, 90, 0]]
+      long_pill: [[510, 105, 40]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+      yellow_bin: [205, -95]
+    prompt: >-
+      Sort all screws into the red bin, all batteries into the green bin, and
+      all pills into the yellow bin.

@@ -1,0 +1,1767 @@
+[
+  {
+    "policy": 10,
+    "session": "policy10_20261030T073447Z_671706",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.187,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T073447Z_671706/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T151902Z_1172929",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.169,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T151902Z_1172929/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T231607Z_1699555",
+    "trial": "r20261030-06e115-t00",
+    "kind": "physical",
+    "rows": 1,
+    "duration_s": 0.0,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "instruction",
+    "final_phase": "scan",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T231607Z_1699555/r20261030-06e115-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T232749Z_1712718",
+    "trial": "r20261030-06e115-t00",
+    "kind": "physical",
+    "rows": 6,
+    "duration_s": 3.862,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T232749Z_1712718/r20261030-06e115-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T233105Z_1716462",
+    "trial": "r20261030-06e115-t00",
+    "kind": "physical",
+    "rows": 54,
+    "duration_s": 85.384,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {
+      "long_pill": 2,
+      "round_pill": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "failure_events": [
+      "target_confirmation_failure"
+    ],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T233105Z_1716462/r20261030-06e115-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T233339Z_1719331",
+    "trial": "r20261030-06e115-t01",
+    "kind": "physical",
+    "rows": 53,
+    "duration_s": 82.914,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {
+      "long_pill": 2,
+      "round_pill": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T233339Z_1719331/r20261030-06e115-t01.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261030T233628Z_1722417",
+    "trial": "r20261030-06e115-t02",
+    "kind": "physical",
+    "rows": 53,
+    "duration_s": 81.049,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {
+      "long_pill": 2,
+      "round_pill": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261030T233628Z_1722417/r20261030-06e115-t02.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T053530Z_2110767",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.181,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T053530Z_2110767/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T063640Z_2178611",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.199,
+    "instruction": "Sort all round pills into the red bin and all long pills into the green bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T063640Z_2178611/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T065238Z_2199540",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.176,
+    "instruction": "Sort all round pills into the green bin and all long pills into the red bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T065238Z_2199540/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T071525Z_2228011",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.158,
+    "instruction": "Sort all round pills into the red bin and all long pills into the yellow bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T071525Z_2228011/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T071535Z_2226299",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.16,
+    "instruction": "Sort all round pills into the red bin and all long pills into the green bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T071535Z_2226299/mock-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T213632Z_3169326",
+    "trial": "r20261031-72fefc-t00",
+    "kind": "physical",
+    "rows": 61,
+    "duration_s": 99.029,
+    "instruction": "Sort all round pills into the red bin and all long pills into the green bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {
+      "long_pill": 2,
+      "round_pill": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T213632Z_3169326/r20261031-72fefc-t00.jsonl"
+  },
+  {
+    "policy": 10,
+    "session": "policy10_20261031T213632Z_3169326",
+    "trial": "r20261031-72fefc-t01",
+    "kind": "physical",
+    "rows": 61,
+    "duration_s": 95.363,
+    "instruction": "Sort all round pills into the red bin and all long pills into the green bin.",
+    "planned_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "verified_pickups": {
+      "long_pill": 2,
+      "round_pill": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "round_pill": 2,
+      "long_pill": 2
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy10/runtime_logs/policy10_20261031T213632Z_3169326/r20261031-72fefc-t01.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T140017Z_2664071",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 5,
+    "duration_s": 7.586,
+    "instruction": "Sort all srews in Red bin, sort all batteris in grean bin and sort all pill in yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1,
+      "aaa_battery": 1,
+      "aa_battery": 1,
+      "round_pill": 1,
+      "long_pill": 1
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "instruction_changed",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T140017Z_2664071/mock-t00.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T140027Z_2664063",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 5,
+    "duration_s": 7.57,
+    "instruction": "sort all m4 screws in blue bin, sort all m8 screws in green bin. sort all roung pill in yello bin. sort all long pill into red bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1,
+      "round_pill": 1,
+      "long_pill": 1
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "instruction_changed",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T140027Z_2664063/mock-t00.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T140558Z_2671155",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 4,
+    "duration_s": 6.557,
+    "instruction": "Sort all screws into the red bin, all batteries into the green bin, and all pills into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1,
+      "aaa_battery": 1,
+      "aa_battery": 1,
+      "round_pill": 1,
+      "long_pill": 1
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "descend_pick",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T140558Z_2671155/mock-t00.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T140607Z_2671590",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 4,
+    "duration_s": 6.576,
+    "instruction": "Sort all M4 screws into the blue bin, all M8 screws into the green bin, all round pills into the yellow bin, and all long pills into the red bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1,
+      "round_pill": 1,
+      "long_pill": 1
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "descend_pick",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T140607Z_2671590/mock-t00.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T214453Z_3187419",
+    "trial": "r20261031-ef6221-t00",
+    "kind": "physical",
+    "rows": 4,
+    "duration_s": 157.823,
+    "instruction": "Sort all screws into the red bin, all batteries into the green bin, and all pills into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure",
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T214453Z_3187419/r20261031-ef6221-t00.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T214453Z_3187419",
+    "trial": "r20261031-ef6221-t01",
+    "kind": "physical",
+    "rows": 44,
+    "duration_s": 103.851,
+    "instruction": "Sort all screws into the red bin, all batteries into the green bin, and all pills into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "aaa_battery": 1,
+      "round_pill": 1
+    },
+    "verified_pickups": {
+      "aaa_battery": 1,
+      "m4_screw": 1,
+      "round_pill": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T214453Z_3187419/r20261031-ef6221-t01.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T214453Z_3187419",
+    "trial": "r20261031-ef6221-t02",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 0.127,
+    "instruction": "Sort all screws into the red bin, all batteries into the green bin, and all pills into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T214453Z_3187419/r20261031-ef6221-t02.jsonl"
+  },
+  {
+    "policy": 11,
+    "session": "policy11_20261031T215332Z_3208402",
+    "trial": "r20261031-ef6221-t02",
+    "kind": "physical",
+    "rows": 44,
+    "duration_s": 99.488,
+    "instruction": "Sort all screws into the red bin, all batteries into the green bin, and all pills into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "aaa_battery": 1,
+      "round_pill": 1
+    },
+    "verified_pickups": {
+      "aaa_battery": 1,
+      "m4_screw": 1,
+      "round_pill": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy11/runtime_logs/policy11_20261031T215332Z_3208402/r20261031-ef6221-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070023Z_631737",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.444,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070023Z_631737/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070023Z_631737",
+    "trial": "mock-t01",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.519,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070023Z_631737/mock-t01.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070023Z_631737",
+    "trial": "mock-t02",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.491,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070023Z_631737/mock-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070850Z_641730",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.482,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070850Z_641730/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070850Z_641730",
+    "trial": "mock-t01",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.463,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070850Z_641730/mock-t01.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070850Z_641730",
+    "trial": "mock-t02",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.496,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070850Z_641730/mock-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T070929Z_643107",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.47,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T070929Z_643107/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T071332Z_648073",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.491,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T071332Z_648073/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T200904Z_1485994",
+    "trial": "r20261030-3b3447-t00",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 0.002,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T200904Z_1485994/r20261030-3b3447-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T201317Z_1491429",
+    "trial": "r20261030-3b3447-t00",
+    "kind": "physical",
+    "rows": 24,
+    "duration_s": 69.911,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T201317Z_1491429/r20261030-3b3447-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T202034Z_1499701",
+    "trial": "r20261030-3b3447-t02",
+    "kind": "physical",
+    "rows": 32,
+    "duration_s": 76.746,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "verified_pickups": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "initial_confirmation_failure"
+    ],
+    "final_event": "gripper_close",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T202034Z_1499701/r20261030-3b3447-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T202851Z_1508866",
+    "trial": "r20261030-3b3447-t02",
+    "kind": "physical",
+    "rows": 6,
+    "duration_s": 61.377,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T202851Z_1508866/r20261030-3b3447-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T203126Z_1511747",
+    "trial": "r20261030-3b3447-t02",
+    "kind": "physical",
+    "rows": 54,
+    "duration_s": 162.654,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "verified_pickups": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "failure_events": [
+      "target_confirmation_failure"
+    ],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T203126Z_1511747/r20261030-3b3447-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T204232Z_1523868",
+    "trial": "r20261030-3b3447-t03",
+    "kind": "physical",
+    "rows": 17,
+    "duration_s": 119.343,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T204232Z_1523868/r20261030-3b3447-t03.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T210444Z_1548773",
+    "trial": "r20261030-3b3447-t04",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 109.943,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "target_confirmation_failure",
+      "target_confirmation_failure",
+      "target_confirmation_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T210444Z_1548773/r20261030-3b3447-t04.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T223954Z_1656476",
+    "trial": "r20261030-3b3447-t05",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 57.254,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T223954Z_1656476/r20261030-3b3447-t05.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T224443Z_1662389",
+    "trial": "r20261030-3b3447-t05",
+    "kind": "physical",
+    "rows": 78,
+    "duration_s": 175.979,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "verified_pickups": {
+      "m4_screw": 3,
+      "m8_screw": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 2
+    },
+    "failure_events": [
+      "pick_verification_failure"
+    ],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T224443Z_1662389/r20261030-3b3447-t05.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T224443Z_1662389",
+    "trial": "r20261030-3b3447-t06",
+    "kind": "physical",
+    "rows": 1,
+    "duration_s": 0.0,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "instruction",
+    "final_phase": "scan",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T224443Z_1662389/r20261030-3b3447-t06.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T225059Z_1669530",
+    "trial": "r20261030-3b3447-t06",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 153.354,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T225059Z_1669530/r20261030-3b3447-t06.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T225552Z_1675752",
+    "trial": "r20261030-3b3447-t06",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 14.556,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T225552Z_1675752/r20261030-3b3447-t06.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261030T230120Z_1682663",
+    "trial": "r20261030-3b3447-t06",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 102.388,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 2
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261030T230120Z_1682663/r20261030-3b3447-t06.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T053511Z_2109891",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.477,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T053511Z_2109891/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T063621Z_2177736",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.49,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T063621Z_2177736/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T065219Z_2199548",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.473,
+    "instruction": "Sort all M4 screws into the green bin and all M8 screws into the red bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T065219Z_2199548/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T071446Z_2226307",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.52,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the yellow bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T071446Z_2226307/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T071456Z_2226738",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 7,
+    "duration_s": 7.514,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "above_bin",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T071456Z_2226738/mock-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T205126Z_3107874",
+    "trial": "r20261031-0f36a5-t00",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 24.229,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T205126Z_3107874/r20261031-0f36a5-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T205247Z_3109375",
+    "trial": "r20261031-0f36a5-t00",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 27.405,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 1,
+      "m8_screw": 1
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T205247Z_3109375/r20261031-0f36a5-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T205809Z_3115343",
+    "trial": "r20261031-0f36a5-t00",
+    "kind": "physical",
+    "rows": 33,
+    "duration_s": 45.899,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 2
+    },
+    "verified_pickups": {
+      "m4_screw": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 2
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T205809Z_3115343/r20261031-0f36a5-t00.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T205809Z_3115343",
+    "trial": "r20261031-0f36a5-t01",
+    "kind": "physical",
+    "rows": 47,
+    "duration_s": 69.597,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 1
+    },
+    "verified_pickups": {
+      "m4_screw": 2,
+      "m8_screw": 1
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 2,
+      "m8_screw": 1
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T205809Z_3115343/r20261031-0f36a5-t01.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T205809Z_3115343",
+    "trial": "r20261031-0f36a5-t02",
+    "kind": "physical",
+    "rows": 19,
+    "duration_s": 24.441,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {
+      "m4_screw": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "relocalization_failure",
+      "relocalization_failure",
+      "relocalization_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T205809Z_3115343/r20261031-0f36a5-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T211033Z_3129031",
+    "trial": "r20261031-0f36a5-t02",
+    "kind": "physical",
+    "rows": 89,
+    "duration_s": 146.687,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T211033Z_3129031/r20261031-0f36a5-t02.jsonl"
+  },
+  {
+    "policy": 8,
+    "session": "policy8_20261031T211438Z_3134264",
+    "trial": "r20261031-0f36a5-t03",
+    "kind": "physical",
+    "rows": 89,
+    "duration_s": 147.448,
+    "instruction": "Sort all M4 screws into the red bin and all M8 screws into the green bin.",
+    "planned_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "verified_pickups": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "complete": true,
+    "completed_inventory": {
+      "m4_screw": 3,
+      "m8_screw": 3
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy8/runtime_logs/policy8_20261031T211438Z_3134264/r20261031-0f36a5-t03.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T073426Z_671005",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.059,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T073426Z_671005/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T151852Z_1172448",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.099,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T151852Z_1172448/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T205731Z_1540735",
+    "trial": "r20261030-f64c6e-t00",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 0.007,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T205731Z_1540735/r20261030-f64c6e-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T222348Z_1637373",
+    "trial": "r20261030-f64c6e-t01",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 1.509,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T222348Z_1637373/r20261030-f64c6e-t01.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T223301Z_1648100",
+    "trial": "r20261030-f64c6e-t01",
+    "kind": "physical",
+    "rows": 2,
+    "duration_s": 1.458,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": null,
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "perception_failure"
+    ],
+    "final_event": "perception_failure",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T223301Z_1648100/r20261030-f64c6e-t01.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261030T231202Z_1694880",
+    "trial": "r20261030-f64c6e-t01",
+    "kind": "physical",
+    "rows": 26,
+    "duration_s": 107.137,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": {
+      "aaa_battery": 1,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261030T231202Z_1694880/r20261030-f64c6e-t01.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T053520Z_2110329",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.061,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T053520Z_2110329/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T063630Z_2178174",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.066,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T063630Z_2178174/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T065229Z_2199986",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.043,
+    "instruction": "Sort all AAA batteries into the green bin and all AA batteries into the red bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T065229Z_2199986/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T071505Z_2227136",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.109,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the yellow bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T071505Z_2227136/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T071515Z_2227570",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 6,
+    "duration_s": 7.084,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T071515Z_2227570/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T212255Z_3146262",
+    "trial": "r20261031-36d31f-t00",
+    "kind": "physical",
+    "rows": 30,
+    "duration_s": 94.451,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 1,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T212255Z_3146262/r20261031-36d31f-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T212255Z_3146262",
+    "trial": "r20261031-36d31f-t01",
+    "kind": "physical",
+    "rows": 47,
+    "duration_s": 189.998,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 2
+    },
+    "complete": true,
+    "completed_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 1
+    },
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T212255Z_3146262/r20261031-36d31f-t01.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T212904Z_3156181",
+    "trial": "r20261031-36d31f-t02",
+    "kind": "physical",
+    "rows": 6,
+    "duration_s": 100.517,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 3,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T212904Z_3156181/r20261031-36d31f-t02.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T213234Z_3161872",
+    "trial": "r20261031-36d31f-t02",
+    "kind": "physical",
+    "rows": 43,
+    "duration_s": 64.399,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 3
+    },
+    "verified_pickups": {
+      "aaa_battery": 3
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "verify_pick",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T213234Z_3161872/r20261031-36d31f-t02.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T215748Z_3219850",
+    "trial": "r20261031-36d31f-t03",
+    "kind": "physical",
+    "rows": 29,
+    "duration_s": 46.266,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 1,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "verify_pick",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T215748Z_3219850/r20261031-36d31f-t03.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T215943Z_3225576",
+    "trial": "r20261031-36d31f-t05",
+    "kind": "physical",
+    "rows": 44,
+    "duration_s": 100.592,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 2
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T215943Z_3225576/r20261031-36d31f-t05.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T220203Z_3232635",
+    "trial": "r20261031-36d31f-t06",
+    "kind": "physical",
+    "rows": 44,
+    "duration_s": 170.739,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aa_battery": 1,
+      "aaa_battery": 2
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "final_source_audit",
+    "final_phase": "final_audit",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T220203Z_3232635/r20261031-36d31f-t06.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T220536Z_3243304",
+    "trial": "r20261031-36d31f-t07",
+    "kind": "physical",
+    "rows": 21,
+    "duration_s": 34.932,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 1
+    },
+    "verified_pickups": {
+      "aaa_battery": 1
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "lift",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T220536Z_3243304/r20261031-36d31f-t07.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T220751Z_3250522",
+    "trial": "r20261031-36d31f-t07",
+    "kind": "physical",
+    "rows": 6,
+    "duration_s": 57.732,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "initial_confirmation_failure",
+      "abort"
+    ],
+    "final_event": "abort",
+    "final_phase": "done",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T220751Z_3250522/r20261031-36d31f-t07.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T221012Z_3258618",
+    "trial": "r20261031-36d31f-t07",
+    "kind": "physical",
+    "rows": 29,
+    "duration_s": 48.015,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2
+    },
+    "verified_pickups": {
+      "aaa_battery": 2
+    },
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "verify_pick",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T221012Z_3258618/r20261031-36d31f-t07.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T235130Z_3640952",
+    "trial": "mock-t00",
+    "kind": "mock",
+    "rows": 3,
+    "duration_s": 0.002,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "scan",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T235130Z_3640952/mock-t00.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T235130Z_3640952",
+    "trial": "mock-t01",
+    "kind": "mock",
+    "rows": 3,
+    "duration_s": 0.001,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "scan",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T235130Z_3640952/mock-t01.jsonl"
+  },
+  {
+    "policy": 9,
+    "session": "policy9_20261031T235130Z_3640952",
+    "trial": "mock-t02",
+    "kind": "mock",
+    "rows": 3,
+    "duration_s": 0.001,
+    "instruction": "Sort all AAA batteries into the red bin and all AA batteries into the green bin.",
+    "planned_inventory": {
+      "aaa_battery": 2,
+      "aa_battery": 2
+    },
+    "verified_pickups": {},
+    "complete": false,
+    "completed_inventory": null,
+    "failure_events": [],
+    "final_event": "motion",
+    "final_phase": "scan",
+    "source": "physical_ai_submission_policy9/runtime_logs/policy9_20261031T235130Z_3640952/mock-t02.jsonl"
+  }
+]

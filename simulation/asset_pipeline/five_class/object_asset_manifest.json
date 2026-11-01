@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "isaac_ready_assets": [
+    "packaged/long_pill_red_sim.usda",
+    "packaged/long_pill_yellow_sim.usda",
+    "packaged/round_pill_red_sim.usda",
+    "packaged/round_pill_yellow_sim.usda"
+  ],
+  "source_sha256": {
+    "long_pill.step": "a35f092a9af6822ca677074bd7bf34a4540158d083c28644d02248ab89831b6b",
+    "round_pill.step": "ab4ada4d2baef7e7fabcf4ef3620454187e3b6fdbd0470aa3a687c07850dea33"
+  },
+  "source_units": "millimetres",
+  "sim_asset_units": "metres",
+  "assets": {
+    "long_pill": {
+      "source_step": "long_pill.step",
+      "visual_usdc": "converted/long_pill_visual.usdc",
+      "collision_usdc": "packaged/long_pill_collision.usdc",
+      "dimensions_mm": [
+        19.5,
+        6.5,
+        6.5
+      ],
+      "source_center_mm": [
+        0.0,
+        0.0,
+        3.25
+      ],
+      "visual_meshes": 1,
+      "visual_triangles": 4364,
+      "visual_watertight": true,
+      "volume_mm3": 669.6224330537462,
+      "collision_vertices": 2184,
+      "collision_triangles": 4364,
+      "collision_watertight": true,
+      "default_mass_kg": 0.0008035469196644956,
+      "variants": {
+        "red": {
+          "sim_asset": "packaged/long_pill_red_sim.usda",
+          "material_rgb": [
+            0.78,
+            0.055,
+            0.035
+          ]
+        },
+        "yellow": {
+          "sim_asset": "packaged/long_pill_yellow_sim.usda",
+          "material_rgb": [
+            0.94,
+            0.68,
+            0.045
+          ]
+        }
+      }
+    },
+    "round_pill": {
+      "source_step": "round_pill.step",
+      "visual_usdc": "converted/round_pill_visual.usdc",
+      "collision_usdc": "packaged/round_pill_collision.usdc",
+      "dimensions_mm": [
+        10.0,
+        10.0,
+        5.0
+      ],
+      "source_center_mm": [
+        0.0,
+        0.0,
+        2.5
+      ],
+      "visual_meshes": 1,
+      "visual_triangles": 4220,
+      "visual_watertight": true,
+      "volume_mm3": 316.92232980737293,
+      "collision_vertices": 2112,
+      "collision_triangles": 4220,
+      "collision_watertight": true,
+      "default_mass_kg": 0.00038030679576884753,
+      "variants": {
+        "red": {
+          "sim_asset": "packaged/round_pill_red_sim.usda",
+          "material_rgb": [
+            0.78,
+            0.055,
+            0.035
+          ]
+        },
+        "yellow": {
+          "sim_asset": "packaged/round_pill_yellow_sim.usda",
+          "material_rgb": [
+            0.94,
+            0.68,
+            0.045
+          ]
+        }
+      }
+    }
+  },
+  "appearance_note": "The sim wrappers apply explicit reddish and yellow pill materials. Shape class is independent of colour so both colours exist for both pill geometries.",
+  "collision_note": "No collision CAD was delivered. Watertight convex-hull collision proxies were generated from the visual solids."
+}

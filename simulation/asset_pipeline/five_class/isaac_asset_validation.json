@@ -1,0 +1,98 @@
+{
+  "status": "PASS",
+  "shape_contract": {
+    "status": "PASS",
+    "long_aspect_ratio": 3.0,
+    "round_aspect_ratio": 2.0
+  },
+  "assets": [
+    {
+      "asset": "long_pill_red_sim.usda",
+      "shape": "long_pill",
+      "color": "red",
+      "status": "PASS",
+      "expected_dimensions_m": [
+        0.0195,
+        0.006500000000000001,
+        0.006500000000000001
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "rigid_body": true,
+      "mass_kg": 0.0008035469218157232,
+      "material_bound": true,
+      "resolved_layers": [
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/long_pill_red_sim.usda",
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/long_pill_collision.usdc",
+        "/workspace/imports/five_class_assets_candidate_20261029/converted/long_pill_visual.usdc"
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "asset": "long_pill_yellow_sim.usda",
+      "shape": "long_pill",
+      "color": "yellow",
+      "status": "PASS",
+      "expected_dimensions_m": [
+        0.0195,
+        0.006500000000000001,
+        0.006500000000000001
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "rigid_body": true,
+      "mass_kg": 0.0008035469218157232,
+      "material_bound": true,
+      "resolved_layers": [
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/long_pill_yellow_sim.usda",
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/long_pill_collision.usdc",
+        "/workspace/imports/five_class_assets_candidate_20261029/converted/long_pill_visual.usdc"
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "asset": "round_pill_red_sim.usda",
+      "shape": "round_pill",
+      "color": "red",
+      "status": "PASS",
+      "expected_dimensions_m": [
+        0.01,
+        0.01,
+        0.005
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "rigid_body": true,
+      "mass_kg": 0.00038030679570510983,
+      "material_bound": true,
+      "resolved_layers": [
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/round_pill_red_sim.usda",
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/round_pill_collision.usdc",
+        "/workspace/imports/five_class_assets_candidate_20261029/converted/round_pill_visual.usdc"
+      ],
+      "missing_dependencies": []
+    },
+    {
+      "asset": "round_pill_yellow_sim.usda",
+      "shape": "round_pill",
+      "color": "yellow",
+      "status": "PASS",
+      "expected_dimensions_m": [
+        0.01,
+        0.01,
+        0.005
+      ],
+      "resolved_meshes": 2,
+      "collision_meshes": 1,
+      "rigid_body": true,
+      "mass_kg": 0.00038030679570510983,
+      "material_bound": true,
+      "resolved_layers": [
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/round_pill_collision.usdc",
+        "/workspace/imports/five_class_assets_candidate_20261029/converted/round_pill_visual.usdc",
+        "/workspace/imports/five_class_assets_candidate_20261029/packaged/round_pill_yellow_sim.usda"
+      ],
+      "missing_dependencies": []
+    }
+  ]
+}

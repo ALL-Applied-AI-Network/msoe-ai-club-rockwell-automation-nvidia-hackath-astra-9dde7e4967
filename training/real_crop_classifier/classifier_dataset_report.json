@@ -1,0 +1,83 @@
+{
+  "status": "complete",
+  "classes": [
+    "m4_screw",
+    "m8_screw",
+    "round_pill",
+    "long_pill",
+    "aa_battery",
+    "aaa_battery"
+  ],
+  "synthetic_train_per_class": 400,
+  "real_train_samples_per_class_after_sampling": 400,
+  "real_validation_and_test_are_not_duplicated": true,
+  "bins_included": false,
+  "counts": {
+    "train": {
+      "m4_screw": {
+        "synthetic": 400,
+        "real": 400
+      },
+      "m8_screw": {
+        "synthetic": 400,
+        "real": 400
+      },
+      "round_pill": {
+        "synthetic": 400,
+        "real": 400
+      },
+      "long_pill": {
+        "synthetic": 400,
+        "real": 400
+      },
+      "aa_battery": {
+        "synthetic": 400,
+        "real": 400
+      },
+      "aaa_battery": {
+        "synthetic": 400,
+        "real": 400
+      }
+    },
+    "val": {
+      "m4_screw": {
+        "real": 6
+      },
+      "m8_screw": {
+        "real": 6
+      },
+      "round_pill": {
+        "real": 4
+      },
+      "long_pill": {
+        "real": 4
+      },
+      "aa_battery": {
+        "real": 2
+      },
+      "aaa_battery": {
+        "real": 2
+      }
+    },
+    "test": {
+      "m4_screw": {
+        "real": 4
+      },
+      "m8_screw": {
+        "real": 4
+      },
+      "round_pill": {
+        "real": 4
+      },
+      "long_pill": {
+        "real": 4
+      },
+      "aa_battery": {
+        "real": 2
+      },
+      "aaa_battery": {
+        "real": 2
+      }
+    }
+  }
+}

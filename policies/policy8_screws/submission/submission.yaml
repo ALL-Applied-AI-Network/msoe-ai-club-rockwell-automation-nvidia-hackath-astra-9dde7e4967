@@ -1,0 +1,20 @@
+# Astra Policy 8. The user will submit this policy manually.
+team: Astra
+contact: Gabriela, davilaa2@uwm.edu
+policy: CustomFinger-VariableScrewSort-P8
+model_type: VLM + BM
+
+task_id: custom-finger-variable-two-size-screw-sort
+task: >-
+  Sort all M4 screws into the red bin and all M8 screws into the green bin.
+
+objects: variable
+layout: random
+rollouts: 10
+
+custom_hardware: >-
+  Two team-designed 3D-printed PLA custom finger bodies with compliant silicone
+  contact parts and 16.4 mm nominal opening, mechanically attached to the
+  approved stock gripper. The scene contains a variable number of M4 and M8
+  screws and two 90 x 90 x 60 mm destination bins (red for M4, green for M8).
+  No controller, sensor, or robot-arm modification.

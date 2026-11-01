@@ -1,0 +1,14 @@
+team: Astra
+contact: Gabriela, davilaa2@uwm.edu
+policy: CustomFinger-VariablePillSizeSort-P10
+model_type: trained detector + calibrated metric verification
+task_id: custom-finger-variable-pill-size-sort
+task: >-
+  Sort all round pills into the red bin and all long pills into the green bin.
+objects: variable
+layout: random
+rollouts: 10
+custom_hardware: >-
+  Team-designed 3D-printed PLA custom fingers with compliant silicone contacts and
+  16.4 mm nominal opening, mechanically attached to the approved stock gripper.
+  Two 90 x 90 x 60 mm bins: red for smaller round pills and green for longer pills.

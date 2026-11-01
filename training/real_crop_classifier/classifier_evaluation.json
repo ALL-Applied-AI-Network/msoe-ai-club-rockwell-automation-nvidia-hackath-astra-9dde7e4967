@@ -1,0 +1,272 @@
+{
+  "status": "complete",
+  "model": "/workspace/real_object_classifier_20261031/training/run/weights/best.pt",
+  "bins_in_training_or_test": false,
+  "all_test_crops": {
+    "correct": 19,
+    "total": 20,
+    "accuracy": 0.95,
+    "by_class": {
+      "aa_battery": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "aaa_battery": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "long_pill": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "m4_screw": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      },
+      "m8_screw": {
+        "correct": 3,
+        "total": 4,
+        "accuracy": 0.75
+      },
+      "round_pill": {
+        "correct": 4,
+        "total": 4,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "frame_00000_only": {
+    "correct": 9,
+    "total": 10,
+    "accuracy": 0.9,
+    "by_class": {
+      "aa_battery": {
+        "correct": 1,
+        "total": 1,
+        "accuracy": 1.0
+      },
+      "aaa_battery": {
+        "correct": 1,
+        "total": 1,
+        "accuracy": 1.0
+      },
+      "long_pill": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "m4_screw": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      },
+      "m8_screw": {
+        "correct": 1,
+        "total": 2,
+        "accuracy": 0.5
+      },
+      "round_pill": {
+        "correct": 2,
+        "total": 2,
+        "accuracy": 1.0
+      }
+    }
+  },
+  "confusion": {
+    "aa_battery": {
+      "aa_battery": 2
+    },
+    "aaa_battery": {
+      "aaa_battery": 2
+    },
+    "long_pill": {
+      "long_pill": 4
+    },
+    "m4_screw": {
+      "m4_screw": 4
+    },
+    "m8_screw": {
+      "m4_screw": 1,
+      "m8_screw": 3
+    },
+    "round_pill": {
+      "round_pill": 4
+    }
+  },
+  "misclassifications": [
+    {
+      "file": "classifier_dataset/test/m8_screw/real_0000_m8_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00000__target02.jpg",
+      "true_class": "m8_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.51031971,
+      "correct": false,
+      "frame": "frame_00000"
+    }
+  ],
+  "predictions": [
+    {
+      "file": "classifier_dataset/test/aa_battery/real_0000_aa_battery__policy9_20261030T231202Z_1694880__r20261030-f64c6e-t01__frame_00000__target00.jpg",
+      "true_class": "aa_battery",
+      "predicted_class": "aa_battery",
+      "confidence": 0.97444963,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/aa_battery/real_0001_aa_battery__policy9_20261030T231202Z_1694880__r20261030-f64c6e-t01__frame_00001__target00.jpg",
+      "true_class": "aa_battery",
+      "predicted_class": "aa_battery",
+      "confidence": 0.97388488,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/aaa_battery/real_0000_aaa_battery__policy9_20261030T231202Z_1694880__r20261030-f64c6e-t01__frame_00000__target01.jpg",
+      "true_class": "aaa_battery",
+      "predicted_class": "aaa_battery",
+      "confidence": 0.98063964,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/aaa_battery/real_0001_aaa_battery__policy9_20261030T231202Z_1694880__r20261030-f64c6e-t01__frame_00001__target01.jpg",
+      "true_class": "aaa_battery",
+      "predicted_class": "aaa_battery",
+      "confidence": 0.5844124,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/long_pill/real_0000_long_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00000__target02.jpg",
+      "true_class": "long_pill",
+      "predicted_class": "long_pill",
+      "confidence": 0.99999714,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/long_pill/real_0001_long_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00000__target03.jpg",
+      "true_class": "long_pill",
+      "predicted_class": "long_pill",
+      "confidence": 0.9999727,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/long_pill/real_0002_long_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00001__target02.jpg",
+      "true_class": "long_pill",
+      "predicted_class": "long_pill",
+      "confidence": 0.99999905,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/long_pill/real_0003_long_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00001__target03.jpg",
+      "true_class": "long_pill",
+      "predicted_class": "long_pill",
+      "confidence": 0.99965739,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/m4_screw/real_0000_m4_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00000__target00.jpg",
+      "true_class": "m4_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.9999783,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/m4_screw/real_0001_m4_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00000__target01.jpg",
+      "true_class": "m4_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.99998808,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/m4_screw/real_0002_m4_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00001__target00.jpg",
+      "true_class": "m4_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.99993813,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/m4_screw/real_0003_m4_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00001__target01.jpg",
+      "true_class": "m4_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.99999595,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/m8_screw/real_0000_m8_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00000__target02.jpg",
+      "true_class": "m8_screw",
+      "predicted_class": "m4_screw",
+      "confidence": 0.51031971,
+      "correct": false,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/m8_screw/real_0001_m8_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00000__target03.jpg",
+      "true_class": "m8_screw",
+      "predicted_class": "m8_screw",
+      "confidence": 0.99998629,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/m8_screw/real_0002_m8_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00001__target02.jpg",
+      "true_class": "m8_screw",
+      "predicted_class": "m8_screw",
+      "confidence": 0.97562796,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/m8_screw/real_0003_m8_screw__policy8_20261030T230120Z_1682663__r20261030-3b3447-t06__frame_00001__target03.jpg",
+      "true_class": "m8_screw",
+      "predicted_class": "m8_screw",
+      "confidence": 0.99999356,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/round_pill/real_0000_round_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00000__target00.jpg",
+      "true_class": "round_pill",
+      "predicted_class": "round_pill",
+      "confidence": 0.99997592,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/round_pill/real_0001_round_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00000__target01.jpg",
+      "true_class": "round_pill",
+      "predicted_class": "round_pill",
+      "confidence": 0.99994838,
+      "correct": true,
+      "frame": "frame_00000"
+    },
+    {
+      "file": "classifier_dataset/test/round_pill/real_0002_round_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00001__target00.jpg",
+      "true_class": "round_pill",
+      "predicted_class": "round_pill",
+      "confidence": 0.99998963,
+      "correct": true,
+      "frame": "frame_00001"
+    },
+    {
+      "file": "classifier_dataset/test/round_pill/real_0003_round_pill__policy10_20261030T233628Z_1722417__r20261030-06e115-t02__frame_00001__target01.jpg",
+      "true_class": "round_pill",
+      "predicted_class": "round_pill",
+      "confidence": 0.99999797,
+      "correct": true,
+      "frame": "frame_00001"
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "dataset": "/workspace/imports/new_pill_battery_assets_candidate_20261029/dataset_combined_1500_seed20261030",
+  "scenes": 1500,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "total_boxes": 14426,
+  "semantic_classes": [
+    "m4_screw",
+    "m8_screw",
+    "round_pill",
+    "long_pill",
+    "aa_battery",
+    "aaa_battery"
+  ],
+  "split_scene_counts": {
+    "train": 1200,
+    "validation": 150,
+    "test": 150
+  },
+  "split_annotation_counts": {
+    "train": 11574,
+    "validation": 1426,
+    "test": 1426
+  },
+  "class_instance_counts": {
+    "m4_screw": 2367,
+    "m8_screw": 2401,
+    "round_pill": 2446,
+    "long_pill": 2460,
+    "aa_battery": 2393,
+    "aaa_battery": 2359
+  },
+  "class_scene_presence": {
+    "m4_screw": 1189,
+    "m8_screw": 1209,
+    "round_pill": 1211,
+    "aa_battery": 1190,
+    "aaa_battery": 1178,
+    "long_pill": 1234
+  },
+  "class_absent_scene_counts": {
+    "long_pill": 266,
+    "m8_screw": 291,
+    "aaa_battery": 322,
+    "m4_screw": 311,
+    "aa_battery": 310,
+    "round_pill": 289
+  },
+  "appearance_color_counts": {
+    "m4_screw": {
+      "black_steel_a": 769,
+      "black_steel_c": 779,
+      "black_steel_b": 819
+    },
+    "m8_screw": {
+      "black_steel_b": 794,
+      "black_steel_a": 786,
+      "black_steel_c": 821
+    },
+    "round_pill": {
+      "blue": 629,
+      "red": 588,
+      "black": 637,
+      "yellow": 592
+    },
+    "long_pill": {
+      "red": 599,
+      "blue": 638,
+      "yellow": 611,
+      "black": 612
+    },
+    "aa_battery": {
+      "battery_copper": 583,
+      "battery_blue": 614,
+      "battery_black": 574,
+      "battery_silver": 622
+    },
+    "aaa_battery": {
+      "battery_blue": 576,
+      "battery_black": 570,
+      "battery_silver": 611,
+      "battery_copper": 602
+    }
+  },
+  "lighting_profile_counts": {
+    "csi_hard_multi": 1044,
+    "csi_mixed": 335,
+    "bright_control": 121
+  },
+  "video_count": 0,
+  "coco_exports": [
+    "annotations_train.json",
+    "annotations_validation.json",
+    "annotations_test.json"
+  ],
+  "errors": [],
+  "warnings": []
+}

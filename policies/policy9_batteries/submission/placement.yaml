@@ -1,0 +1,19 @@
+rollouts:
+  - objects:
+      aaa_battery: [[330, -40, 15], [420, -25, -38]]
+      aa_battery: [[325, -190, 55], [405, -175, 5], [480, -185, -32]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all AAA batteries into the red bin and all AA batteries into the green bin.
+  - objects:
+      aaa_battery: [[315, -35, -25], [375, -20, 30], [445, -40, 65]]
+      aa_battery: [[350, -185, 42]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all AAA batteries into the red bin and all AA batteries into the green bin.
+  - objects:
+      aaa_battery: [[360, -20, 50]]
+      aa_battery: [[330, -190, -45], [410, -180, 18], [485, -170, 62]]
+      red_bin: [205, 285]
+      green_bin: [205, 95]
+    prompt: Sort all AAA batteries into the red bin and all AA batteries into the green bin.

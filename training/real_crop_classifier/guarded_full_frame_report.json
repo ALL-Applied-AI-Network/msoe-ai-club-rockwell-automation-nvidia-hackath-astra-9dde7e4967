@@ -1,0 +1,1617 @@
+{
+  "status": "complete",
+  "proposal_parameters_reused_from_train_plus_validation_selection": true,
+  "workspace_polygon_px": [
+    [
+      676,
+      624
+    ],
+    [
+      621,
+      873
+    ],
+    [
+      1331,
+      896
+    ],
+    [
+      1281,
+      647
+    ]
+  ],
+  "best_config": {
+    "dark_v": 90,
+    "saturation": 45,
+    "min_area": 8,
+    "max_area": 900,
+    "max_dimension": 75
+  },
+  "validation": {
+    "split": "guarded_validation",
+    "confidence_type": "probability normalized within the two allowed task classes",
+    "pairwise_confidence_threshold": 0.75,
+    "frames": 6,
+    "targets": 24,
+    "proposal_recall": 1.0,
+    "false_proposals_per_frame": 0.0,
+    "raw_six_class_accuracy_on_matched": 1.0,
+    "task_allowlisted_accuracy_on_matched": 1.0,
+    "end_to_end_allowlisted_correct_recall": 1.0,
+    "end_to_end_accepted_correct_recall": 1.0,
+    "accepted_false_positives": 0,
+    "counts": {
+      "images": 6,
+      "targets": 24,
+      "camera_blocked": 0,
+      "proposal_tp": 24,
+      "proposal_fn": 0,
+      "proposal_fp": 0,
+      "raw_correct": 24,
+      "allowed_correct": 24,
+      "accepted": 24,
+      "accepted_correct": 24
+    },
+    "by_class": {
+      "aa_battery": {
+        "matched": 2,
+        "raw_correct": 2,
+        "allowed_correct": 2,
+        "accepted_correct": 2
+      },
+      "aaa_battery": {
+        "matched": 2,
+        "raw_correct": 2,
+        "allowed_correct": 2,
+        "accepted_correct": 2
+      },
+      "long_pill": {
+        "matched": 4,
+        "raw_correct": 4,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      },
+      "m4_screw": {
+        "matched": 6,
+        "raw_correct": 6,
+        "allowed_correct": 6,
+        "accepted_correct": 6
+      },
+      "m8_screw": {
+        "matched": 6,
+        "raw_correct": 6,
+        "allowed_correct": 6,
+        "accepted_correct": 6
+      },
+      "round_pill": {
+        "matched": 4,
+        "raw_correct": 4,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      }
+    },
+    "frame_records": [
+      {
+        "session": "policy10_20261030T233339Z_1719331",
+        "frame": "frame_00000.png",
+        "policy": 10,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "round_pill",
+            "center": [
+              1022.197,
+              698.555
+            ]
+          },
+          {
+            "class": "round_pill",
+            "center": [
+              1073.526,
+              828.895
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              995.54,
+              755.503
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              999.075,
+              844.657
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1011,
+              689,
+              1034,
+              712
+            ],
+            "center": [
+              1022.5,
+              700.5
+            ],
+            "area": 159.5,
+            "long_side": 15,
+            "short_side": 15,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.94294673204422,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.94294673204422,
+            "pairwise_confidence": 0.9856850925982001,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              983,
+              742,
+              1010,
+              771
+            ],
+            "center": [
+              996.5,
+              756.5
+            ],
+            "area": 212.0,
+            "long_side": 21,
+            "short_side": 19,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999361038208008,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999361038208008,
+            "pairwise_confidence": 0.9999921317460443,
+            "accepted": true,
+            "matched_class": "long_pill"
+          },
+          {
+            "box": [
+              1062,
+              819,
+              1086,
+              843
+            ],
+            "center": [
+              1074.0,
+              831.0
+            ],
+            "area": 189.5,
+            "long_side": 16,
+            "short_side": 16,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.40264269709587097,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.40264269709587097,
+            "pairwise_confidence": 0.9314588258491611,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              984,
+              834,
+              1016,
+              858
+            ],
+            "center": [
+              1000.0,
+              846.0
+            ],
+            "area": 254.5,
+            "long_side": 24,
+            "short_side": 16,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999699592590332,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999699592590332,
+            "pairwise_confidence": 0.9999918935905004,
+            "accepted": true,
+            "matched_class": "long_pill"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy10_20261030T233339Z_1719331__frame_00000.jpg"
+      },
+      {
+        "session": "policy10_20261030T233339Z_1719331",
+        "frame": "frame_00001.png",
+        "policy": 10,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "round_pill",
+            "center": [
+              1022.197,
+              698.555
+            ]
+          },
+          {
+            "class": "round_pill",
+            "center": [
+              1073.526,
+              828.895
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              995.54,
+              755.503
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              999.075,
+              844.657
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1011,
+              689,
+              1035,
+              712
+            ],
+            "center": [
+              1023.0,
+              700.5
+            ],
+            "area": 163.0,
+            "long_side": 16,
+            "short_side": 15,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.45150601863861084,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.45150601863861084,
+            "pairwise_confidence": 0.8555932881851991,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              983,
+              743,
+              1009,
+              770
+            ],
+            "center": [
+              996.0,
+              756.5
+            ],
+            "area": 211.0,
+            "long_side": 19,
+            "short_side": 18,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999938011169434,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999938011169434,
+            "pairwise_confidence": 0.9999975562003875,
+            "accepted": true,
+            "matched_class": "long_pill"
+          },
+          {
+            "box": [
+              1062,
+              819,
+              1087,
+              843
+            ],
+            "center": [
+              1074.5,
+              831.0
+            ],
+            "area": 193.5,
+            "long_side": 17,
+            "short_side": 16,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.9959278702735901,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.9959278702735901,
+            "pairwise_confidence": 0.9991825417712484,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              985,
+              834,
+              1016,
+              857
+            ],
+            "center": [
+              1000.5,
+              845.5
+            ],
+            "area": 245.0,
+            "long_side": 23,
+            "short_side": 15,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9998894929885864,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9998894929885864,
+            "pairwise_confidence": 0.9999853954613982,
+            "accepted": true,
+            "matched_class": "long_pill"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy10_20261030T233339Z_1719331__frame_00001.jpg"
+      },
+      {
+        "session": "policy8_20261030T225059Z_1669530",
+        "frame": "frame_00000.png",
+        "policy": 8,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "m4_screw",
+            "center": [
+              976.577,
+              778.945
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              1107.904,
+              809.344
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              896.539,
+              851.736
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              977.861,
+              714.146
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1063.194,
+              731.183
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1005.216,
+              863.852
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              968,
+              686,
+              990,
+              728
+            ],
+            "center": [
+              979.0,
+              707.0
+            ],
+            "area": 295.0,
+            "long_side": 34,
+            "short_side": 14,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.999208390712738,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.999208390712738,
+            "pairwise_confidence": 0.9992506782997604,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              1048,
+              720,
+              1090,
+              744
+            ],
+            "center": [
+              1069.0,
+              732.0
+            ],
+            "area": 294.5,
+            "long_side": 34,
+            "short_side": 16,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9996887445449829,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9996887445449829,
+            "pairwise_confidence": 0.999697742125932,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              961,
+              771,
+              998,
+              788
+            ],
+            "center": [
+              979.5,
+              779.5
+            ],
+            "area": 112.5,
+            "long_side": 29,
+            "short_side": 9,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.998869001865387,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.998869001865387,
+            "pairwise_confidence": 0.9999258330387737,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1092,
+              799,
+              1130,
+              819
+            ],
+            "center": [
+              1111.0,
+              809.0
+            ],
+            "area": 129.0,
+            "long_side": 30,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999868869781494,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999868869781494,
+            "pairwise_confidence": 0.9999948739596075,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              885,
+              830,
+              905,
+              869
+            ],
+            "center": [
+              895.0,
+              849.5
+            ],
+            "area": 121.5,
+            "long_side": 31,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999456405639648,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999456405639648,
+            "pairwise_confidence": 0.999978183990029,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              985,
+              844,
+              1019,
+              888
+            ],
+            "center": [
+              1002.0,
+              866.0
+            ],
+            "area": 384.5,
+            "long_side": 36,
+            "short_side": 26,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9996852874755859,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9996852874755859,
+            "pairwise_confidence": 0.9997907656225653,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy8_20261030T225059Z_1669530__frame_00000.jpg"
+      },
+      {
+        "session": "policy8_20261030T225059Z_1669530",
+        "frame": "frame_00001.png",
+        "policy": 8,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "m4_screw",
+            "center": [
+              976.577,
+              778.945
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              1107.904,
+              809.344
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              896.539,
+              851.736
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              977.861,
+              714.146
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1063.194,
+              731.183
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1005.216,
+              863.852
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              967,
+              686,
+              990,
+              729
+            ],
+            "center": [
+              978.5,
+              707.5
+            ],
+            "area": 297.0,
+            "long_side": 35,
+            "short_side": 15,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9988582134246826,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9988582134246826,
+            "pairwise_confidence": 0.999183925204691,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              1048,
+              720,
+              1090,
+              744
+            ],
+            "center": [
+              1069.0,
+              732.0
+            ],
+            "area": 296.0,
+            "long_side": 34,
+            "short_side": 16,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9998146891593933,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9998146891593933,
+            "pairwise_confidence": 0.9998244030104692,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              961,
+              771,
+              998,
+              788
+            ],
+            "center": [
+              979.5,
+              779.5
+            ],
+            "area": 103.0,
+            "long_side": 29,
+            "short_side": 9,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9966890215873718,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9966890215873718,
+            "pairwise_confidence": 0.999819189484577,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1092,
+              799,
+              1129,
+              819
+            ],
+            "center": [
+              1110.5,
+              809.0
+            ],
+            "area": 134.0,
+            "long_side": 29,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999778270721436,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999778270721436,
+            "pairwise_confidence": 0.9999942182546866,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              885,
+              830,
+              905,
+              869
+            ],
+            "center": [
+              895.0,
+              849.5
+            ],
+            "area": 127.0,
+            "long_side": 31,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999662637710571,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999662637710571,
+            "pairwise_confidence": 0.9999943373997757,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              985,
+              844,
+              1019,
+              889
+            ],
+            "center": [
+              1002.0,
+              866.5
+            ],
+            "area": 392.0,
+            "long_side": 37,
+            "short_side": 26,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9999692440032959,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9999692440032959,
+            "pairwise_confidence": 0.999977588466548,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy8_20261030T225059Z_1669530__frame_00001.jpg"
+      },
+      {
+        "session": "policy9_20261030T223301Z_1648100",
+        "frame": "frame_00000.png",
+        "policy": 9,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "aa_battery",
+            "center": [
+              1002.0,
+              729.0
+            ]
+          },
+          {
+            "class": "aaa_battery",
+            "center": [
+              870.0,
+              729.0
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              972,
+              689,
+              1025,
+              758
+            ],
+            "center": [
+              998.5,
+              723.5
+            ],
+            "area": 796.5,
+            "long_side": 55,
+            "short_side": 39,
+            "raw_class": "aa_battery",
+            "raw_confidence": 0.9999840259552002,
+            "allowed_class": "aa_battery",
+            "allowed_confidence": 0.9999840259552002,
+            "pairwise_confidence": 0.9999905824043789,
+            "accepted": true,
+            "matched_class": "aa_battery"
+          },
+          {
+            "box": [
+              852,
+              698,
+              888,
+              759
+            ],
+            "center": [
+              870.0,
+              728.5
+            ],
+            "area": 532.5,
+            "long_side": 49,
+            "short_side": 24,
+            "raw_class": "aaa_battery",
+            "raw_confidence": 0.9999620914459229,
+            "allowed_class": "aaa_battery",
+            "allowed_confidence": 0.9999620914459229,
+            "pairwise_confidence": 0.9999626874701306,
+            "accepted": true,
+            "matched_class": "aaa_battery"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy9_20261030T223301Z_1648100__frame_00000.jpg"
+      },
+      {
+        "session": "policy9_20261030T223301Z_1648100",
+        "frame": "frame_00001.png",
+        "policy": 9,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "aa_battery",
+            "center": [
+              1002.0,
+              729.0
+            ]
+          },
+          {
+            "class": "aaa_battery",
+            "center": [
+              870.0,
+              729.0
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              972,
+              689,
+              1026,
+              758
+            ],
+            "center": [
+              999.0,
+              723.5
+            ],
+            "area": 799.0,
+            "long_side": 55,
+            "short_side": 40,
+            "raw_class": "aa_battery",
+            "raw_confidence": 0.9999918937683105,
+            "allowed_class": "aa_battery",
+            "allowed_confidence": 0.9999918937683105,
+            "pairwise_confidence": 0.9999954104262122,
+            "accepted": true,
+            "matched_class": "aa_battery"
+          },
+          {
+            "box": [
+              852,
+              698,
+              888,
+              759
+            ],
+            "center": [
+              870.0,
+              728.5
+            ],
+            "area": 518.5,
+            "long_side": 49,
+            "short_side": 24,
+            "raw_class": "aaa_battery",
+            "raw_confidence": 0.9998940229415894,
+            "allowed_class": "aaa_battery",
+            "allowed_confidence": 0.9998940229415894,
+            "pairwise_confidence": 0.9998951553111047,
+            "accepted": true,
+            "matched_class": "aaa_battery"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_validation_annotated/policy9_20261030T223301Z_1648100__frame_00001.jpg"
+      }
+    ]
+  },
+  "test": {
+    "split": "guarded_test",
+    "confidence_type": "probability normalized within the two allowed task classes",
+    "pairwise_confidence_threshold": 0.75,
+    "frames": 6,
+    "targets": 20,
+    "proposal_recall": 1.0,
+    "false_proposals_per_frame": 0.0,
+    "raw_six_class_accuracy_on_matched": 0.95,
+    "task_allowlisted_accuracy_on_matched": 1.0,
+    "end_to_end_allowlisted_correct_recall": 1.0,
+    "end_to_end_accepted_correct_recall": 0.9,
+    "accepted_false_positives": 0,
+    "counts": {
+      "images": 6,
+      "targets": 20,
+      "camera_blocked": 0,
+      "proposal_tp": 20,
+      "proposal_fn": 0,
+      "proposal_fp": 0,
+      "raw_correct": 19,
+      "allowed_correct": 20,
+      "accepted": 18,
+      "accepted_correct": 18
+    },
+    "by_class": {
+      "aa_battery": {
+        "matched": 2,
+        "raw_correct": 2,
+        "allowed_correct": 2,
+        "accepted_correct": 1
+      },
+      "aaa_battery": {
+        "matched": 2,
+        "raw_correct": 2,
+        "allowed_correct": 2,
+        "accepted_correct": 1
+      },
+      "long_pill": {
+        "matched": 4,
+        "raw_correct": 4,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      },
+      "m4_screw": {
+        "matched": 4,
+        "raw_correct": 4,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      },
+      "m8_screw": {
+        "matched": 4,
+        "raw_correct": 4,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      },
+      "round_pill": {
+        "matched": 4,
+        "raw_correct": 3,
+        "allowed_correct": 4,
+        "accepted_correct": 4
+      }
+    },
+    "frame_records": [
+      {
+        "session": "policy10_20261030T233628Z_1722417",
+        "frame": "frame_00000.png",
+        "policy": 10,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "round_pill",
+            "center": [
+              1020.238,
+              753.039
+            ]
+          },
+          {
+            "class": "round_pill",
+            "center": [
+              969.677,
+              772.172
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              986.983,
+              699.314
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              956.164,
+              848.616
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              975,
+              687,
+              1001,
+              714
+            ],
+            "center": [
+              988.0,
+              700.5
+            ],
+            "area": 190.5,
+            "long_side": 19,
+            "short_side": 18,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999730587005615,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999730587005615,
+            "pairwise_confidence": 0.999990582301092,
+            "accepted": true,
+            "matched_class": "long_pill"
+          },
+          {
+            "box": [
+              1009,
+              743,
+              1032,
+              766
+            ],
+            "center": [
+              1020.5,
+              754.5
+            ],
+            "area": 166.5,
+            "long_side": 15,
+            "short_side": 15,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.36854949593544006,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.31377920508384705,
+            "pairwise_confidence": 0.9441433060609477,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              958,
+              763,
+              982,
+              786
+            ],
+            "center": [
+              970.0,
+              774.5
+            ],
+            "area": 164.5,
+            "long_side": 16,
+            "short_side": 15,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.6730546951293945,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.6730546951293945,
+            "pairwise_confidence": 0.9796116092988975,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              946,
+              833,
+              968,
+              866
+            ],
+            "center": [
+              957.0,
+              849.5
+            ],
+            "area": 238.0,
+            "long_side": 25,
+            "short_side": 14,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999822378158569,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999822378158569,
+            "pairwise_confidence": 0.9999946355154626,
+            "accepted": true,
+            "matched_class": "long_pill"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy10_20261030T233628Z_1722417__frame_00000.jpg"
+      },
+      {
+        "session": "policy10_20261030T233628Z_1722417",
+        "frame": "frame_00001.png",
+        "policy": 10,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "round_pill",
+            "center": [
+              1020.238,
+              753.039
+            ]
+          },
+          {
+            "class": "round_pill",
+            "center": [
+              969.677,
+              772.172
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              986.983,
+              699.314
+            ]
+          },
+          {
+            "class": "long_pill",
+            "center": [
+              956.164,
+              848.616
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              974,
+              687,
+              1001,
+              714
+            ],
+            "center": [
+              987.5,
+              700.5
+            ],
+            "area": 188.0,
+            "long_side": 19,
+            "short_side": 19,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9999969005584717,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9999969005584717,
+            "pairwise_confidence": 0.9999980330444949,
+            "accepted": true,
+            "matched_class": "long_pill"
+          },
+          {
+            "box": [
+              1009,
+              743,
+              1032,
+              766
+            ],
+            "center": [
+              1020.5,
+              754.5
+            ],
+            "area": 168.5,
+            "long_side": 15,
+            "short_side": 15,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.4585278332233429,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.4585278332233429,
+            "pairwise_confidence": 0.9305022125797812,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              959,
+              762,
+              982,
+              785
+            ],
+            "center": [
+              970.5,
+              773.5
+            ],
+            "area": 161.5,
+            "long_side": 15,
+            "short_side": 15,
+            "raw_class": "round_pill",
+            "raw_confidence": 0.9689185619354248,
+            "allowed_class": "round_pill",
+            "allowed_confidence": 0.9689185619354248,
+            "pairwise_confidence": 0.9959142153081714,
+            "accepted": true,
+            "matched_class": "round_pill"
+          },
+          {
+            "box": [
+              946,
+              833,
+              967,
+              866
+            ],
+            "center": [
+              956.5,
+              849.5
+            ],
+            "area": 236.0,
+            "long_side": 25,
+            "short_side": 13,
+            "raw_class": "long_pill",
+            "raw_confidence": 0.9997833371162415,
+            "allowed_class": "long_pill",
+            "allowed_confidence": 0.9997833371162415,
+            "pairwise_confidence": 0.9999468239628154,
+            "accepted": true,
+            "matched_class": "long_pill"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy10_20261030T233628Z_1722417__frame_00001.jpg"
+      },
+      {
+        "session": "policy8_20261030T230120Z_1682663",
+        "frame": "frame_00000.png",
+        "policy": 8,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "m4_screw",
+            "center": [
+              1108.361,
+              809.52
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              1050.436,
+              832.836
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1043.981,
+              741.977
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1108.837,
+              883.274
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1028,
+              730,
+              1070,
+              753
+            ],
+            "center": [
+              1049.0,
+              741.5
+            ],
+            "area": 303.0,
+            "long_side": 34,
+            "short_side": 15,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9973082542419434,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9973082542419434,
+            "pairwise_confidence": 0.9973981419796153,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              1092,
+              799,
+              1130,
+              819
+            ],
+            "center": [
+              1111.0,
+              809.0
+            ],
+            "area": 132.0,
+            "long_side": 30,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999319314956665,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999319314956665,
+            "pairwise_confidence": 0.9999912375975495,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1034,
+              825,
+              1072,
+              845
+            ],
+            "center": [
+              1053.0,
+              835.0
+            ],
+            "area": 132.0,
+            "long_side": 30,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999822378158569,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999822378158569,
+            "pairwise_confidence": 0.9999974965667201,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1097,
+              856,
+              1138,
+              894
+            ],
+            "center": [
+              1117.5,
+              875.0
+            ],
+            "area": 401.0,
+            "long_side": 33,
+            "short_side": 30,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9994879961013794,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9994879961013794,
+            "pairwise_confidence": 0.9994975876278643,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy8_20261030T230120Z_1682663__frame_00000.jpg"
+      },
+      {
+        "session": "policy8_20261030T230120Z_1682663",
+        "frame": "frame_00001.png",
+        "policy": 8,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "m4_screw",
+            "center": [
+              1108.361,
+              809.52
+            ]
+          },
+          {
+            "class": "m4_screw",
+            "center": [
+              1050.436,
+              832.836
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1043.981,
+              741.977
+            ]
+          },
+          {
+            "class": "m8_screw",
+            "center": [
+              1108.837,
+              883.274
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1028,
+              730,
+              1070,
+              754
+            ],
+            "center": [
+              1049.0,
+              742.0
+            ],
+            "area": 300.5,
+            "long_side": 34,
+            "short_side": 16,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9978074431419373,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9978074431419373,
+            "pairwise_confidence": 0.9978489576919358,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          },
+          {
+            "box": [
+              1092,
+              799,
+              1130,
+              819
+            ],
+            "center": [
+              1111.0,
+              809.0
+            ],
+            "area": 130.0,
+            "long_side": 30,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999356269836426,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999356269836426,
+            "pairwise_confidence": 0.9999874227684966,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1034,
+              825,
+              1072,
+              845
+            ],
+            "center": [
+              1053.0,
+              835.0
+            ],
+            "area": 127.5,
+            "long_side": 30,
+            "short_side": 12,
+            "raw_class": "m4_screw",
+            "raw_confidence": 0.9999867677688599,
+            "allowed_class": "m4_screw",
+            "allowed_confidence": 0.9999867677688599,
+            "pairwise_confidence": 0.9999967813169516,
+            "accepted": true,
+            "matched_class": "m4_screw"
+          },
+          {
+            "box": [
+              1097,
+              856,
+              1138,
+              894
+            ],
+            "center": [
+              1117.5,
+              875.0
+            ],
+            "area": 398.5,
+            "long_side": 33,
+            "short_side": 30,
+            "raw_class": "m8_screw",
+            "raw_confidence": 0.9996905326843262,
+            "allowed_class": "m8_screw",
+            "allowed_confidence": 0.9996905326843262,
+            "pairwise_confidence": 0.999701675427753,
+            "accepted": true,
+            "matched_class": "m8_screw"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy8_20261030T230120Z_1682663__frame_00001.jpg"
+      },
+      {
+        "session": "policy9_20261030T231202Z_1694880",
+        "frame": "frame_00000.png",
+        "policy": 9,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "aa_battery",
+            "center": [
+              1069.5,
+              789.0
+            ]
+          },
+          {
+            "class": "aaa_battery",
+            "center": [
+              981.0,
+              804.0
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1051,
+              748,
+              1094,
+              823
+            ],
+            "center": [
+              1072.5,
+              785.5
+            ],
+            "area": 870.5,
+            "long_side": 61,
+            "short_side": 29,
+            "raw_class": "aa_battery",
+            "raw_confidence": 0.719572126865387,
+            "allowed_class": "aa_battery",
+            "allowed_confidence": 0.719572126865387,
+            "pairwise_confidence": 0.7317107718506188,
+            "accepted": false,
+            "matched_class": "aa_battery"
+          },
+          {
+            "box": [
+              960,
+              772,
+              1000,
+              837
+            ],
+            "center": [
+              980.0,
+              804.5
+            ],
+            "area": 573.5,
+            "long_side": 53,
+            "short_side": 28,
+            "raw_class": "aaa_battery",
+            "raw_confidence": 0.970332145690918,
+            "allowed_class": "aaa_battery",
+            "allowed_confidence": 0.970332145690918,
+            "pairwise_confidence": 0.9725127210342805,
+            "accepted": true,
+            "matched_class": "aaa_battery"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy9_20261030T231202Z_1694880__frame_00000.jpg"
+      },
+      {
+        "session": "policy9_20261030T231202Z_1694880",
+        "frame": "frame_00001.png",
+        "policy": 9,
+        "camera_blocked": false,
+        "occluder_box": null,
+        "occluder_area": 0.0,
+        "targets": [
+          {
+            "class": "aa_battery",
+            "center": [
+              1069.5,
+              789.0
+            ]
+          },
+          {
+            "class": "aaa_battery",
+            "center": [
+              981.0,
+              804.0
+            ]
+          }
+        ],
+        "proposals": [
+          {
+            "box": [
+              1052,
+              748,
+              1093,
+              823
+            ],
+            "center": [
+              1072.5,
+              785.5
+            ],
+            "area": 844.0,
+            "long_side": 61,
+            "short_side": 27,
+            "raw_class": "aa_battery",
+            "raw_confidence": 0.7022754549980164,
+            "allowed_class": "aa_battery",
+            "allowed_confidence": 0.7022754549980164,
+            "pairwise_confidence": 0.7910959442174632,
+            "accepted": true,
+            "matched_class": "aa_battery"
+          },
+          {
+            "box": [
+              960,
+              772,
+              1000,
+              837
+            ],
+            "center": [
+              980.0,
+              804.5
+            ],
+            "area": 568.0,
+            "long_side": 53,
+            "short_side": 28,
+            "raw_class": "aaa_battery",
+            "raw_confidence": 0.6919018030166626,
+            "allowed_class": "aaa_battery",
+            "allowed_confidence": 0.6919018030166626,
+            "pairwise_confidence": 0.7214190149283117,
+            "accepted": false,
+            "matched_class": "aaa_battery"
+          }
+        ],
+        "missed_target_indices": [],
+        "extra_proposal_indices": [],
+        "annotated": "full_frame_evaluation/guarded_test_annotated/policy9_20261030T231202Z_1694880__frame_00001.jpg"
+      }
+    ]
+  }
+}

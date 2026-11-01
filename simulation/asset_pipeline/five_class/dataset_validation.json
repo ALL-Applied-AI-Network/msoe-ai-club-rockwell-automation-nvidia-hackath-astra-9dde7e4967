@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "scene_count": 500,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "file_counts": {
+    "rgb": 500,
+    "bbox": 500,
+    "bbox_labels": 500,
+    "bbox_prim_paths": 500,
+    "semantic_segmentation": 500,
+    "semantic_labels": 500
+  },
+  "class_instances": {
+    "cube": 1010,
+    "long_pill": 991,
+    "m4_screw": 1006,
+    "m8_screw": 1016,
+    "round_pill": 1047
+  },
+  "class_color_instances": {
+    "cube": {
+      "blue": 339,
+      "red": 354,
+      "yellow": 317
+    },
+    "long_pill": {
+      "red": 506,
+      "yellow": 485
+    },
+    "m4_screw": {
+      "black_steel_a": 320,
+      "black_steel_b": 334,
+      "black_steel_c": 352
+    },
+    "m8_screw": {
+      "black_steel_a": 335,
+      "black_steel_b": 334,
+      "black_steel_c": 347
+    },
+    "round_pill": {
+      "red": 514,
+      "yellow": 533
+    }
+  },
+  "box_size_pixels_min": [
+    6,
+    7
+  ],
+  "box_size_pixels_max": [
+    40,
+    41
+  ],
+  "sample_rgb_dimensions": {
+    "0": [
+      1920,
+      1080
+    ],
+    "250": [
+      1920,
+      1080
+    ],
+    "499": [
+      1920,
+      1080
+    ]
+  },
+  "errors": []
+}

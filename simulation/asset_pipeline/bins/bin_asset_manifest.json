@@ -1,0 +1,88 @@
+{
+  "source": "source/red_green_bin.step",
+  "source_dimensions_mm": [
+    90.0,
+    90.0,
+    60.0
+  ],
+  "source_units": "millimetres",
+  "assets": [
+    {
+      "file": "red_bin_sim.usda",
+      "visual_bounds_m": {
+        "min": [
+          -0.04500000213738531,
+          -0.04500000213738531,
+          0.0
+        ],
+        "max": [
+          0.04500000213738531,
+          0.04500000213738531,
+          0.06000000284984708
+        ],
+        "size": [
+          0.09000000427477062,
+          0.09000000427477062,
+          0.06000000284984708
+        ]
+      },
+      "diffuse_colour": [
+        0.7200000286102295,
+        0.017999999225139618,
+        0.02199999988079071
+      ],
+      "collision_prims": [
+        "/Asset/Collision/Floor",
+        "/Asset/Collision/WallNorth",
+        "/Asset/Collision/WallSouth",
+        "/Asset/Collision/WallEast",
+        "/Asset/Collision/WallWest"
+      ],
+      "open_top": true,
+      "floor_top_z_m": 0.01,
+      "inner_opening_m": [
+        0.08,
+        0.08
+      ]
+    },
+    {
+      "file": "green_bin_sim.usda",
+      "visual_bounds_m": {
+        "min": [
+          -0.04500000213738531,
+          -0.04500000213738531,
+          0.0
+        ],
+        "max": [
+          0.04500000213738531,
+          0.04500000213738531,
+          0.06000000284984708
+        ],
+        "size": [
+          0.09000000427477062,
+          0.09000000427477062,
+          0.06000000284984708
+        ]
+      },
+      "diffuse_colour": [
+        0.017999999225139618,
+        0.5199999809265137,
+        0.054999999701976776
+      ],
+      "collision_prims": [
+        "/Asset/Collision/Floor",
+        "/Asset/Collision/WallNorth",
+        "/Asset/Collision/WallSouth",
+        "/Asset/Collision/WallEast",
+        "/Asset/Collision/WallWest"
+      ],
+      "open_top": true,
+      "floor_top_z_m": 0.01,
+      "inner_opening_m": [
+        0.08,
+        0.08
+      ]
+    }
+  ],
+  "validation": "passed"
+}

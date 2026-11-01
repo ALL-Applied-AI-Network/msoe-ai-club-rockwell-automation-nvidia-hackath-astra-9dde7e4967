@@ -1,0 +1,47 @@
+{
+  "status": "evaluation_complete_not_yet_integrated_into_robot_policy",
+  "task_families": {
+    "policy8": [
+      "m4_screw",
+      "m8_screw"
+    ],
+    "policy9": [
+      "aa_battery",
+      "aaa_battery"
+    ],
+    "policy10": [
+      "round_pill",
+      "long_pill"
+    ]
+  },
+  "runtime_sequence": [
+    "move robot to the calibrated camera-clear scan pose",
+    "capture a fresh table frame",
+    "fail closed and rescan if the camera-occlusion guard is active",
+    "mask the calibrated table boundary and colored bins",
+    "generate category-agnostic loose-object proposals",
+    "classify each crop with the six-class checkpoint",
+    "renormalize probability across the two classes allowed by the active task",
+    "accept only pairwise confidence >= 0.75; otherwise rescan",
+    "apply the existing geometry and reachability checks before grasping"
+  ],
+  "checkpoint": "artifacts/run/weights/best.pt",
+  "checkpoint_sha256": "e88b2cb43dc00edf9d7872cd5aaac45fc6d2ef864d3d3879d2c36a754a924673",
+  "held_out_clear_scan_result": {
+    "frames": 6,
+    "targets": 20,
+    "proposal_recall": 1.0,
+    "extra_proposals": 0,
+    "raw_six_class_correct": 19,
+    "task_pair_correct": 20,
+    "accepted_at_pairwise_0_75": 18,
+    "accepted_false_positives": 0
+  },
+  "camera_guard_audit": {
+    "clear_frames_blocked": 0,
+    "clear_frames_total": 6,
+    "robot_occluded_frames_blocked": 7,
+    "robot_occluded_frames_total": 7
+  },
+  "important_limit": "The dataset is small and contains adjacent frame pairs. Preserve the next genuinely new CSI run as the final untouched evaluation set."
+}
